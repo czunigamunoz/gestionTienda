@@ -1,0 +1,78 @@
+
+j
+java:S1192O"ODefine a constant instead of duplicating this literal "Comic Sans MS" 13 times.(»”é™øÿÿÿÿ
+b
+java:S1192µ"FDefine a constant instead of duplicating this literal "Error" 8 times.(ˆõ¶Íÿÿÿÿÿ
+V	java:S110"<This class has 6 parents which is greater than 5 authorized.(©¯Ø¿ÿÿÿÿÿ
+F
+java:S5411Ò"*Use the primitive boolean expression here.(˜Ôğÿÿÿÿÿ
+=
+java:S1604g"(Make this anonymous inner class a lambda(öİ‰h
+>
+java:S1604p"(Make this anonymous inner class a lambda(ŠÃ‹¶
+C
+java:S1604x"(Make this anonymous inner class a lambda(£ºäÍúÿÿÿÿ
+?
+java:S1604¡"(Make this anonymous inner class a lambda(¼¿¨÷
+x
+java:S1450À"\Remove the "btnActualizar" field and declare it as a local variable in the relevant methods.(‚èÿ†üÿÿÿÿ
+u
+java:S1450Á"YRemove the "btnAgregar" field and declare it as a local variable in the relevant methods.(˜ÏÀÁüÿÿÿÿ
+o
+java:S1450Â"XRemove the "btnBuscar" field and declare it as a local variable in the relevant methods.(òûËê
+q
+java:S1450Ã"ZRemove the "btnEliminar" field and declare it as a local variable in the relevant methods.(’ÁÅª
+r
+java:S1450Ä"VRemove the "jLabel1" field and declare it as a local variable in the relevant methods.(°ãÉ¸ÿÿÿÿÿ
+r
+java:S1450Å"VRemove the "jLabel2" field and declare it as a local variable in the relevant methods.(™úòˆüÿÿÿÿ
+r
+java:S1450Æ"VRemove the "jLabel3" field and declare it as a local variable in the relevant methods.(Îä€øÿÿÿÿ
+m
+java:S1450Ç"VRemove the "jLabel4" field and declare it as a local variable in the relevant methods.(«¢•ã
+r
+java:S1450È"VRemove the "jLabel6" field and declare it as a local variable in the relevant methods.(¸ôÂøÿÿÿÿ
+m
+java:S1450É"VRemove the "jLabel7" field and declare it as a local variable in the relevant methods.(×ê˜Ÿ
+r
+java:S1450Ê"VRemove the "jPanel1" field and declare it as a local variable in the relevant methods.(´œ½ÿÿÿÿÿ
+r
+java:S1450Ë"VRemove the "jPanel2" field and declare it as a local variable in the relevant methods.(õ òçüÿÿÿÿ
+q
+java:S1450Ì"ZRemove the "scrollPanel" field and declare it as a local variable in the relevant methods.(»®ªµ
+?
+java:S1948")Make "control" transient or serializable.(÷‘‰Ö
+?
+java:S1948")Make "cliente" transient or serializable.(Ó…ß®
+A
+java:S1948"&Make "data" transient or serializable.(æ³ÑÓûÿÿÿÿ
+P
+java:S1161_":Add the "@Override" annotation above this method signature(†ŒË³
+F
+java:S1172’"*Remove this unused method parameter "evt".(‡·ƒêşÿÿÿÿ
+N
+java:S1135“"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ
+A
+java:S1172¦"*Remove this unused method parameter "evt".(Ô¢¼ˆ
+N
+java:S1135§"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ
+A
+java:S1172¼"*Remove this unused method parameter "evt".(é¡Ôì
+N
+java:S1135½"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ
+F
+java:S1172Ğ"*Remove this unused method parameter "evt".(ê¾…šıÿÿÿÿ
+N
+java:S1135Ñ"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ
+N
+java:S1135ë"2Complete the task associated to this TODO comment.(ÜÀ†áûÿÿÿÿ
+T
+java:S1197¡"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ
+\
+java:S2147°"ECombine this catch with the one at line 430, which has the same body.(¨¦Š½
+\
+java:S2147²"ECombine this catch with the one at line 430, which has the same body.(ã€ 
+[
+java:S2147´"ECombine this catch with the one at line 430, which has the same body.(ñÎ¯%
+C
+java:S1602º",Remove useless curly braces around statement(¤çšÜ

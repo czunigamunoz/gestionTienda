@@ -1,0 +1,22 @@
+
+‹
+java:S1319!"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(–ü†şşÿÿÿÿ
+
+java:S1319%"sThe type of the "clientes" object should be an interface such as "List" rather than the implementation "ArrayList".(È‘¢‡ÿÿÿÿÿ
+†
+java:S1319)"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(…‰ºŒ
+
+java:S1319-"tThe type of the "productos" object should be an interface such as "List" rather than the implementation "ArrayList".(Üé¶‚ûÿÿÿÿ
+k	java:S117\"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸·ğşÿÿÿÿ
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(–òÖ 
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¼ÅÙøÿÿÿÿ
+M
+java:S1197s"8Move the array designator from the variable to the type.(—é€
+M
+java:S1197"8Move the array designator from the variable to the type.(—é€
+T
+java:S1197‰"8Move the array designator from the variable to the type.(Òºøÿÿÿÿ
+O
+java:S1197•"8Move the array designator from the variable to the type.(“À‰³
