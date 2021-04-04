@@ -73,6 +73,8 @@ public final class GUIFacturacion extends javax.swing.JFrame {
         txtFactura = new javax.swing.JTextField();
         txtFecha = new javax.swing.JTextField();
         lbFecha = new javax.swing.JLabel();
+        txtAtendido = new javax.swing.JTextField();
+        jLabel4 = new javax.swing.JLabel();
         jPanel3 = new javax.swing.JPanel();
         txtIdentificacion = new javax.swing.JTextField();
         txtNombres = new javax.swing.JTextField();
@@ -134,22 +136,31 @@ public final class GUIFacturacion extends javax.swing.JFrame {
         lbFecha.setForeground(new java.awt.Color(255, 255, 255));
         lbFecha.setText("Fecha:");
 
+        jLabel4.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        jLabel4.setText("Atendido por:");
+
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(txtAtendido, javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(lbFecha)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(txtFecha, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(lbNumFactura)
-                        .addGap(28, 28, 28)
-                        .addComponent(txtFactura, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(74, Short.MAX_VALUE))
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                .addGroup(jPanel2Layout.createSequentialGroup()
+                                    .addComponent(lbNumFactura)
+                                    .addGap(28, 28, 28)
+                                    .addComponent(txtFactura, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGroup(jPanel2Layout.createSequentialGroup()
+                                    .addComponent(lbFecha)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(txtFecha, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(jLabel4))
+                        .addGap(0, 62, Short.MAX_VALUE)))
+                .addContainerGap())
         );
 
         jPanel2Layout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[] {txtFactura, txtFecha});
@@ -165,7 +176,11 @@ public final class GUIFacturacion extends javax.swing.JFrame {
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(txtFecha, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(lbFecha))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel4)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(txtAtendido, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
         );
 
         jPanel2Layout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {txtFactura, txtFecha});
@@ -377,18 +392,21 @@ public final class GUIFacturacion extends javax.swing.JFrame {
         lbSubtotal.setForeground(new java.awt.Color(255, 255, 255));
         lbSubtotal.setText("Subtotal:  ");
 
+        txtSubtotal.setEditable(false);
         txtSubtotal.setBackground(new java.awt.Color(153, 153, 153));
 
         lbIva.setFont(new java.awt.Font("Comic Sans MS", 2, 12)); // NOI18N
         lbIva.setForeground(new java.awt.Color(255, 255, 255));
         lbIva.setText("IVA:");
 
+        txtIva.setEditable(false);
         txtIva.setBackground(new java.awt.Color(153, 153, 153));
 
         lbTotal.setFont(new java.awt.Font("Comic Sans MS", 2, 12)); // NOI18N
         lbTotal.setForeground(new java.awt.Color(255, 255, 255));
         lbTotal.setText("Total:");
 
+        txtTotal.setEditable(false);
         txtTotal.setBackground(new java.awt.Color(153, 153, 153));
 
         txtDescuento.addFocusListener(new java.awt.event.FocusAdapter() {
@@ -403,10 +421,19 @@ public final class GUIFacturacion extends javax.swing.JFrame {
             }
         });
 
+        txtCambio.setEditable(false);
+        txtCambio.setBackground(new java.awt.Color(153, 153, 153));
+
+        jLabel1.setFont(new java.awt.Font("Comic Sans MS", 2, 12)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Descuento:");
 
+        jLabel2.setFont(new java.awt.Font("Comic Sans MS", 2, 12)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Efectivo $:");
 
+        jLabel3.setFont(new java.awt.Font("Comic Sans MS", 2, 12)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Cambio:");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -613,6 +640,7 @@ public final class GUIFacturacion extends javax.swing.JFrame {
                 boolean agregada = control.agregarFactura(factura);
                 if(agregada){
                     JOptionPane.showMessageDialog(this, "Fecha: " + fechaFacutra + "\n\n"
+                            + "Atendido por: " + txtAtendido.getText()
                             + "Factura numero: " + control.obtenerCodigo() + " generada con exito\n\n"
                             + "A nombre de: " + cliente.getNombres() + " " + cliente.getApellidos() + "\n\n"
                             + "Subtotal de: " + totalSinIva + "\n\n"
@@ -754,6 +782,7 @@ public final class GUIFacturacion extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
@@ -773,6 +802,7 @@ public final class GUIFacturacion extends javax.swing.JFrame {
     private javax.swing.JLabel lbTotal1;
     public static javax.swing.JTable tablaProductosPedido;
     private javax.swing.JTextField txtApellidos;
+    private javax.swing.JTextField txtAtendido;
     private javax.swing.JTextField txtCambio;
     private javax.swing.JTextField txtCantidad;
     private javax.swing.JTextField txtCorreo;
