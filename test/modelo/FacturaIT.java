@@ -17,17 +17,6 @@ public class FacturaIT {
     Date fecha = new Date();
     Cliente clientePrueba = new Cliente(35435200,"Valentina","Ceron","8463443","CeronMV@gmail.com");
     Factura facturaPrueba = new Factura(fecha, 56700, 13300, 70000, clientePrueba);
-    
-    public FacturaIT() {
-    }
-
-    @Test
-    public void testGetFecha() {
-    }
-
-    @Test
-    public void testSetFecha() {
-    }
 
     @Test
     public void testGetTotalSinIva() {
@@ -76,7 +65,7 @@ public class FacturaIT {
 
     @Test
     public void testGetCliente() {
-        Cliente expected = this.clientePrueba;
+        Cliente expected = clientePrueba;
         Cliente actual = facturaPrueba.getCliente();
         assertEquals(expected, actual);
     }

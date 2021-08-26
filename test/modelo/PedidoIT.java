@@ -22,60 +22,8 @@ public class PedidoIT {
     }
 
     @Test
-    public void testGetCodigo() {
-    }
-
-    @Test
-    public void testSetCodigo() {
-    }
-
-    @Test
-    public void testGetCantidad() {
-    }
-
-    @Test
-    public void testSetCantidad() {
-    }
-
-    @Test
-    public void testGetEstadoPedido() {
-    }
-
-    @Test
-    public void testSetEstadoPedido() {
-    }
-
-    @Test
-    public void testGetProductos() {
-    }
-
-    @Test
-    public void testSetProductos() {
-    }
-
-    @Test
-    public void testGetFacturas() {
-    }
-
-    @Test
-    public void testSetFacturas() {
-    }
-
-    @Test
-    public void testAgregarFactura() {
-    }
-
-    @Test
-    public void testEliminarFactura() {
-    }
-
-    @Test
-    public void testAgregarProductoPedido() {
-    }
-
-    @Test
     public void testBuscarProductoPedido() {
-        Producto expected = this.productoPrueba;
+        Producto expected = productoPrueba;
         Producto actual = pedido.buscarProductoPedido("Portatil ASUS ROG");
         assertEquals(expected, actual);
     }

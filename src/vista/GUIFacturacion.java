@@ -137,6 +137,7 @@ public final class GUIFacturacion extends javax.swing.JFrame {
         lbFecha.setText("Fecha:");
 
         jLabel4.setFont(new java.awt.Font("Comic Sans MS", 0, 12)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Atendido por:");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);

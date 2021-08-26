@@ -14,9 +14,6 @@ import static org.junit.Assert.*;
  */
 public class ClienteIT {
     Cliente clientePrueba = new Cliente(35435200,"Valentina","Ceron","8463443","CeronMV@gmail.com");
-    
-    public ClienteIT() {
-    }
 
     @Test
     public void testGetIdentificacion() {

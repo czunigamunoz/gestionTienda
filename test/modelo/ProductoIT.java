@@ -15,9 +15,6 @@ import static org.junit.Assert.*;
  */
 public class ProductoIT {
     Producto productoPrueba = new Producto(1, "Portatil ASUS ROG", 3200000,5,"15.6 pul, i7 16GB 1TB");
-    
-    public ProductoIT() {
-    }
 
     @Test
     public void testGetCodigo() {
